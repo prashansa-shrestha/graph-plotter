@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CustomClasses">
+      <UniqueIdentifier>{e06088ff-366d-455f-8084-05b8f64b0cc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm1.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="set1.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dashboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="expenses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="expensecategory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="incomeentry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="expenseentry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deleterecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usermanager.h">
+      <Filter>Header Files\CustomClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\CustomClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="dbclass.h">
+      <Filter>Header Files\CustomClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="expensemanager.h">
+      <Filter>Header Files\CustomClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="expenseobject.h">
+      <Filter>Header Files\CustomClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="set1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Header Files\Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Resource1.rc">
+      <Filter>Header Files\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\Component_1__1_-removebg-preview.png">
+      <Filter>Header Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
