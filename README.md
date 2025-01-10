@@ -4,6 +4,8 @@
 
 The easiest way to get your graphs done!
 
+![Logo](./graph-plotter-logo.png)
+
 ## Project Description
 
 This program processes data from Excel files, generating a table format and its corresponding graph.
